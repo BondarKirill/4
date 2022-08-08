@@ -1,55 +1,83 @@
 body {
+    background-color: rgb(152, 216, 216);
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-.logo-1 {
+.logo1 {
     text-align: center;
     padding-top: 25px;
 }
-.logo-2 {
+.logo2 {
     text-align: center;
     padding-top: 5px;
 }
-.fon {
-    text-align: center;
-    padding-top: 5px;
-}
-.fon-2 {
-    text-align: center;
-    margin-top: 25px; 
-}
-.girl {
-    text-align: center;
-    margin-top: -395px; 
-}
-.left {
-    margin-left: 500px;
-    margin-top: -240px;
-}
-.right {
-    margin-left: 1360px;
-    margin-top: -57px;
-}
-header {
-    background-image: url(images/4_0037.png);
-    background-size: cover;
-    height: 100vh;
-}
-nav {
+.nav {
+    background: #eee;
+    max-width: 890px;
+    margin: auto;
     display: flex;
     justify-content: center;
-    margin-top: -50px;
+    padding-top: 20px;
+    border: 3px #eee solid;
 }
 .nav-item {
-    text-decoration: none;
-    font-size: 30px;
+    margin-bottom: 20px;
     color: #000;
-    margin-right: 45px;
-}
-.nav-item:hover {
-    background-color: red;
-    color: yellow;
+    margin-right: 50px;
+    font-size: 20px;
+    text-decoration: none;
 }
 .nav-item:last-child {
     margin-right: 0;
 }
+.container {
+    display: block;
+    text-align: center;
+}
+.center {
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+/* .center2 {
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.center3 {
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.center4 {
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+}    */
+.right {
+    opacity: 0.5;
+    margin-top: -200px;
+    margin-left: 400px;
+}
+.left {
+    opacity: 0.5;
+    margin-left: -400px;
+    margin-top: -25px;
+}
+@media (max-width: 900px) {
+    .nav {
+        display: block;
+        max-width: 100px;
+        font-size: 10px;
+        padding: 1px;
+        text-align: center;
+    }
+    .nav-item {
+        display: block;
+        max-width: 650px;
+        font-size: 15px;
+        text-align: center;
+        margin-right: 0;
+    }
+ }
+
