@@ -31,36 +31,44 @@ body {
     margin-right: 0;
 }
 .container {
+    /* position: fixed; */
     display: block;
     text-align: center;
 }
 .center {
+    /* position: fixed; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    opacity: 0.5; /*Чтобы видно было задний фон */
+}
+.center2 {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -375px;   
+    opacity: 0.4; /*Чтобы видно было задний фон */
+    /* -webkit-filter: blur(5px); Применяет эффект размытия */
+}
+/* .center3 {
     margin-top: 25px;
     margin-right: 25px;
     margin-left: 25px;
-}
-/* .center2 {
-    margin-top: 25px;
-    margin-right: 25px;
-    margin-left: 25px;
-}
-.center3 {
-    margin-top: 25px;
-    margin-right: 25px;
-    margin-left: 25px;
-}
-.center4 {
+} */
+/* .center4 {
     margin-top: 25px;
     margin-right: 25px;
     margin-left: 25px;
 }    */
 .right {
-    opacity: 0.5;
+    opacity: 0.9;
     margin-top: -200px;
     margin-left: 400px;
 }
 .left {
-    opacity: 0.5;
+    opacity: 0.9;
     margin-left: -400px;
     margin-top: -25px;
 }
@@ -78,6 +86,10 @@ body {
         font-size: 15px;
         text-align: center;
         margin-right: 0;
+    }
+    .container {
+        display: block;
+        text-align: center;
     }
  }
 
