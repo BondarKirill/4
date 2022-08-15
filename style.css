@@ -1,13 +1,15 @@
 h1 {
-  font-weight: 100;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 15px;
 }
 p {
-  font-size: 15px;
+  font-size: 12px;
+  text-indent: 65px;
 }
 .further {
   text-decoration: underline;
-  font-size: 18px;
+  font-size: 12px;
+  float: right;
 }
 body {
     background-color: rgb(152, 216, 216);
@@ -42,20 +44,21 @@ body {
     margin-right: 0;
 }
 .container {
+    display: flex;
     width: 100%;
     padding-top: 10px;
 }
 .image {
     text-align: center;
-    width: 15%;
     float: left;
-    height: 500px;
+    height: 400px;
     margin-top: -30px;
-    box-sizing: border-box;
-    border: 3px #eee solid;
-    background: rgb(109, 218, 8);
+    margin-right: 10px;
+    padding: 10px;
+    /* box-sizing: border-box; */
+    /* border: 1px rgb(196, 20, 20) solid; */
+    background: #eee;
 }
-
 
 
 
