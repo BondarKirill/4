@@ -1,15 +1,16 @@
 h1 {
-  font-weight: 500;
-  font-size: 15px;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
 }
 p {
-  font-size: 12px;
-  text-indent: 65px;
+    font-size: 12px;
+    text-indent: 65px;
 }
 .further {
-  text-decoration: underline;
-  font-size: 12px;
-  float: right;
+    text-decoration: underline;
+    font-size: 12px;
+    float: right;
 }
 body {
     background-color: rgb(152, 216, 216);
@@ -44,19 +45,16 @@ body {
     margin-right: 0;
 }
 .container {
-    display: flex;
+    position: relative;
     width: 100%;
     padding-top: 10px;
 }
 .image {
-    text-align: center;
-    float: left;
-    height: 400px;
+    display: inline-block;
+    height: 380px;
     margin-top: -30px;
     margin-right: 10px;
     padding: 10px;
-    /* box-sizing: border-box; */
-    /* border: 1px rgb(196, 20, 20) solid; */
     background: #fff;
 }
 
@@ -66,29 +64,29 @@ body {
     box-sizing: border-box;
 }
 .slideshow-container {
-  max-width: 900px;
-  position: relative;
-  margin: auto;
+    max-width: 900px;
+    position: relative;
+    margin: auto;
 }
 .mySlides {
     display: none;
 }
 .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 45%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: #fff;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
 }
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 /* .text {
@@ -118,21 +116,21 @@ body {
   transition: background-color 0.6s ease;
 }*/
 .active, .dot:hover {
-  background-color: #717171;
+    background-color: #717171;
 }
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    from {opacity: .4}
+    to {opacity: 1}
 }
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    from {opacity: .4}
+    to {opacity: 1}
 }
 
 
