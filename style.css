@@ -152,13 +152,14 @@ p {
     font-size: 12px;
     float: right;
 }
-/* .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
+.fa {
+  padding: 10px;
+  font-size: 15px;
+  width: 20px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 15px 5px;
+  border-radius: 25%;
 }
 .fa:hover {
     opacity: 0.7;
@@ -171,25 +172,9 @@ p {
   background: #55ACEE;
   color: white;
 }
-.fa-vk {
-  background: #dd4b39;
+.fa-vkontakte {
+  background: #7179e4;
   color: white;
-} */
-.up {
-    display: flex;
-    text-align: center;
-}
-.button1 {
-    cursor: pointer;
-    margin-right: 15px;
-}
-.button2 {
-    cursor: pointer;
-    margin-right: 15px;
-}
-.button3 {
-    cursor: pointer;
-    margin-right: 15px;
 }
 h2 {
     font-weight: 300;
@@ -197,7 +182,7 @@ h2 {
     background-color: #fff;
     color: #000;
     padding: 15px;
-    margin: 20px 483px;
+    margin: 20px 480px;
 }
 
 @media (max-width: 900px) {
@@ -251,25 +236,28 @@ h2 {
         padding: 1px;
         text-align: center;
     }
-    .button1 {
-        cursor: pointer;
-        margin-right: 15px;
-    }
-    .button2 {
-        cursor: pointer;
-        margin-right: 15px;
-    }
-    .button3 {
-        cursor: pointer;
-        margin-right: 15px;
-    }
-    h2 {
-        display: block;
-        max-width: 150px;
-        font-size: 15px;
-        text-align: center;
-        margin-right: 0;
-    }
+    .fa {
+        padding: 5px;
+        font-size: 5px;
+        width: 20px;
+      }
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-vkontakte {
+        background: #7179e4;
+        color: white;
+      }
+      h2 {
+          font-weight: 500;
+          font-size: 10px;
+      }
+    
 }
 
 
