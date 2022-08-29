@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     height: 100px;
     background-color: rgb(152, 216, 216);
-    background-image: radial-gradient(100px circle, #fff 5%, rgb(152, 216, 216), rgb(152, 216, 216));
+    background-image: radial-gradient(ellipse 300px 200px at top center, #fff, rgb(152, 216, 216), rgb(152, 216, 216));
     background-repeat: no-repeat;
 }
 .logo1 {
