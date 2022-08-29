@@ -1,7 +1,10 @@
 body {
-    background-color: rgb(152, 216, 216);
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    height: 100px;
+    background-color: rgb(152, 216, 216);
+    background-image: radial-gradient(100px circle, #fff 5%, rgb(152, 216, 216), rgb(152, 216, 216));
+    background-repeat: no-repeat;
 }
 .logo1 {
     text-align: center;
@@ -28,8 +31,7 @@ body {
     text-decoration: none;
 }
 .nav-item:hover {
-    margin-bottom: 10px;
-    color: rgb(130, 139, 219);
+    background-color: #376cce;
 }
 .nav-item:last-child {
     margin-right: 0;
@@ -107,7 +109,7 @@ body {
     justify-content: center;
     padding: -25px;
 }
-.image {
+.newsfeed {
     text-align: center;
     background-color: #fff;
     color: #000;
@@ -116,7 +118,7 @@ body {
     margin-top: -20px;
     max-width: 215px;
 }
-.image2 {
+.newsfeed2 {
     text-align: center;
     background-color: #fff;
     color: #000;
@@ -125,7 +127,7 @@ body {
     margin-top: -20px;
     max-width: 215px;
 }
-.image3 {
+.newsfeed3 {
     text-align: center;
     background-color: #fff;
     color: #000;
@@ -134,7 +136,7 @@ body {
     margin-top: -20px;
     max-width: 215px;
 }
-.image4 {
+.newsfeed4 {
     text-align: center;
     background-color: #fff;
     color: #000;
