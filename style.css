@@ -33,8 +33,10 @@ body {
     font-size: 20px;
     text-decoration: none;
 }
+/* Изменение цвета при наведении */
 .nav-item:hover {
-    background-color: #376cce;
+    background-color: #000;
+    color: #fff;
 }
 .nav-item:last-child {
     margin-right: 0;
@@ -112,15 +114,16 @@ body {
     text-align: center;
     background-color: #fff;
     float: left;
-    width: 13%;
+    width: 12%;
     padding: 10px;
-    margin: 10px;
+    margin: 14px;
 }
 /* Очистить поплавки после колонн */
 .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: -35px;
 }
 /* На экранах шириной 950px или меньше перейдите от четырех столбцов к двум столбцам */
 @media screen and (max-width: 950px) {
@@ -130,12 +133,12 @@ body {
 }
 .further {
     text-decoration: underline;
-    font-size: 15px;
+    font-size: 12px;
     float: right;
 }
 h1 {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
 }
 p {
