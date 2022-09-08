@@ -153,14 +153,13 @@ p {
 h2 {
     font-weight: 300;
     font-size: 15px;
-    background-color: #fff;
     color: #000;
-    padding: 15px;
-    margin: 0 450px;
 }
 .footer {
-    padding: -5px;
-    margin-top: 10px;
+    justify-content: center;
+    padding: 10px;
+    margin: 0px 450px;
+    background: #fff;
 }
 /* На экранах шириной 1000px или меньше */
 @media screen and (max-width: 1000px) {
