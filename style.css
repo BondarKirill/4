@@ -138,31 +138,19 @@ p {
     font-size: 11px;
     text-indent: 60px;
 }
-.fa {
-  padding: 10px;
-  font-size: 15px;
-  width: 20px;
-  text-align: center;
-  text-decoration: none;
-  margin: 15px 5px;
-  border-radius: 25%;
-}
-.fa:hover {
-    opacity: 0.5;
-}
 h2 {
     font-weight: 300;
     font-size: 15px;
     color: #000;
 }
 .footer {
-    text-align: left;
     background: #fff;
-    margin-left: 450px;
-    margin-right: 450px;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
 }
-.media {
-    text-align: right;
+.text {
+    justify-content: left;
 }
 /* На экранах шириной 1000px или меньше */
 @media screen and (max-width: 1000px) {
@@ -180,13 +168,10 @@ h2 {
         margin-right: 0;
     }
     .footer {
-        text-align: left;
-        background: #fff;
-        margin-left: 150px;
-        margin-right: 150px;
-    }
-    .media {
-        text-align: right;
+        display: block;
+        max-width: 200px;
+        padding: -5px;
+        text-align: center;
     }
     h2 {
         font-weight: 300;
