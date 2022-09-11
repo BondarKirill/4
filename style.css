@@ -156,10 +156,13 @@ h2 {
     color: #000;
 }
 .footer {
-    justify-content: center;
-    padding: 10px;
-    margin: 0px 450px;
+    text-align: left;
     background: #fff;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+.media {
+    text-align: right;
 }
 /* На экранах шириной 1000px или меньше */
 @media screen and (max-width: 1000px) {
@@ -175,5 +178,19 @@ h2 {
         font-size: 15px;
         text-align: center;
         margin-right: 0;
+    }
+    .footer {
+        text-align: left;
+        background: #fff;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    .media {
+        text-align: right;
+    }
+    h2 {
+        font-weight: 300;
+        font-size: 10px;
+        color: #000;
     }
 }
