@@ -9,6 +9,9 @@ body {
     background-image: radial-gradient(ellipse 300px 200px at top center, #fff, rgb(152, 216, 216), rgb(152, 216, 216));
     background-repeat: no-repeat;
 }
+.head {
+    margin: 20px;
+}
 .logo1 {
     text-align: center;
     padding-top: 15px;
@@ -34,10 +37,10 @@ body {
     text-decoration: none;
 }
 /* Изменение цвета при наведении */
-.nav-item:hover {
-    background-color: #000;
+.nav a:hover {
+    background: #000;
     color: #fff;
-}
+  }
 .nav-item:last-child {
     margin-right: 0;
 }
@@ -66,35 +69,6 @@ body {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
-/* .text {
-  color: #f7e5e5;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-} */
-/* .numbertext {
-  color: #0a0a0a;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0; 
-} */
-/* .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-} */
-/* .active, .dot:hover {
-    background-color: #717171;
-} */
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
@@ -113,7 +87,6 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin-top: -35px;
 }
 /* Создаем четыре одинаковых столбца, которые плавают рядом друг с другом */
 .column {

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <title>ImageMarker</title>
+    <script src="script.js"></script>
 </head>
 <body>
 
@@ -29,33 +30,23 @@
         </div>
 
     </div> 
-    
-    <br>
 
     <div class="slideshow-container">
 
         <div class="mySlides fade">
-        <!-- <div class="numbertext">1 / 4</div> "Эти надписи тоже пока не нужны" -->
         <img src="images/4_0027.png" style="width:100%">
-        <!-- <div class="text">Картинка 1</div> "Эти надписи тоже не нужны"-->
         </div>
     
         <div class="mySlides fade">
-        <!-- <div class="numbertext">2 / 4</div> "Эти надписи тоже пока не нужны" -->
         <img src="images/4_0028.png" style="width:100%">
-        <!-- <div class="text">Картинка 2</div> "Эти надписи тоже не нужны"-->
         </div>
     
         <div class="mySlides fade">
-        <!-- <div class="numbertext">3 / 4</div> "Эти надписи тоже пока не нужны" -->
         <img src="images/4_0029.png" style="width:100%">
-        <!-- <div class="text">Картинка 3</div> "Эти надписи тоже не нужны"-->
         </div>
 
         <div class="mySlides fade">
-        <!-- <div class="numbertext">4 / 4</div> "Эти надписи тоже пока не нужны" -->
         <img src="images/4_0030.png" style="width:100%">
-        <!-- <div class="text">Картинка 4</div> "Эти надписи тоже не нужны"-->
         </div>
     
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -63,16 +54,7 @@
 
     </div>
 
-    <br>
-    
-    <!-- <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-    </div> "Точки внизу картинки (4 шт., так как 4 картинки)"-->
-
-    <script>
+<script>
         var slideIndex = 1;
         showSlides(slideIndex);
         
@@ -99,9 +81,7 @@
           slides[slideIndex-1].style.display = "block";  
           dots[slideIndex-1].className += " active";
         }
-        </script>
-        
-        <br>
+</script>
 
 <div class="row">
 
