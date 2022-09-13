@@ -26,23 +26,20 @@ body {
     margin: auto;
     display: flex;
     justify-content: center;
-    padding-top: 20px;
-    border: 3px #fff solid;
 }
-.nav-item {
-    margin-bottom: 20px;
+.nav a {
+    padding: 15px 5px;
     color: #000;
-    margin-right: 100px;
+    margin-right: 70px;
     font-size: 20px;
     text-decoration: none;
 }
-/* Изменение цвета при наведении */
 .nav a:hover {
     background: #000;
     color: #fff;
   }
-.nav-item:last-child {
-    margin-right: 0;
+.nav a:last-child {
+    margin-right: 0px;
 }
 .slideshow-container {
     max-width: 1000px;
@@ -88,7 +85,6 @@ body {
     flex-flow: row wrap;
     justify-content: center;
 }
-/* Создаем четыре одинаковых столбца, которые плавают рядом друг с другом */
 .column {
     text-align: center;
     background-color: #fff;
@@ -122,10 +118,6 @@ h2 {
     margin: auto;
     display: flex;
 }
-.text {
-    justify-content: left;
-}
-/* На экранах шириной 1000px или меньше */
 @media screen and (max-width: 1000px) {
 .nav {
         display: block;
@@ -133,20 +125,20 @@ h2 {
         padding: -5px;
         text-align: center;
     }
-.nav-item {
+.nav a {
         display: block;
         max-width: 650px;
         font-size: 15px;
         text-align: center;
         margin-right: 0;
     }
-    .footer {
+.footer {
         display: block;
         max-width: 200px;
         padding: -5px;
         text-align: center;
     }
-    h2 {
+h2 {
         font-weight: 300;
         font-size: 10px;
         color: #000;
