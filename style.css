@@ -127,7 +127,7 @@ h2 {
 @media screen and (max-width: 1020px) {
 .nav {
         display: block;
-        max-width: 100px;
+        max-width: 215px;
         padding: -5px;
         text-align: center;
 }
@@ -144,12 +144,12 @@ h2 {
         color: #000;
 }
 .footer {
-    display: flex;
-    flex-flow: row wrap;
-    max-width: 225px;
+        display: flex;
+        flex-flow: row wrap;
+        max-width: 225px;
 }
 .media {
-   position: relative;
+        position: relative;
         margin-left: 45px;
         margin-top: 10px;
 }
