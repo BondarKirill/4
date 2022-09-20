@@ -22,7 +22,6 @@ body {
 }
 .nav {
     background: #fff;
-    max-width: 1000px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -115,7 +114,6 @@ h2 {
 .footer {
     padding: 15px;
     background: #fff;
-    max-width: 1004px;
     margin: auto;
     display: flex;
 }
