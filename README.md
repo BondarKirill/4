@@ -4,4 +4,4 @@
 
 ### Learning to typeset
 
-[My first project](bondarkirill.github.io/ImageMarker/)
+[My first real project for brother](bondarkirill.github.io/ImageMarker/)
